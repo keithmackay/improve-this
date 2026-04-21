@@ -1,0 +1,6 @@
+{
+  "name": "improve-this",
+  "description": "Evaluate a project for potential improvements. Strictly evaluate-and-report — never modifies files. Run with different models to get different perspectives.",
+  "version": "1.0.0",
+  "contextFileName": "GEMINI.md"
+}
