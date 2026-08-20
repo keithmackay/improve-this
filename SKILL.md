@@ -3,6 +3,8 @@ name: improve-this
 description: Evaluate a project for potential improvements. Strictly evaluate-and-report — never modifies files. Run with different models to get different perspectives.
 ---
 
+<!-- SYNC: synced copy of skills/improve-this/SKILL.md. Edit that file, not this one. Run scripts/check-sync.sh after editing. -->
+
 You are running an improvement review. Your job is to evaluate — not fix. Do not modify any files.
 
 ## Flags

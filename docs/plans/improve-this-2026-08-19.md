@@ -48,8 +48,8 @@ Tasks:
 
 ## Verification Checklist
 
-- [ ] `docs/TESTING_GUIDELINES.md` removed, nothing references it
-- [ ] Skill body has one canonical source; other entry points reference or are clearly marked as synced copies
-- [ ] `docs/specs/` removed
-- [ ] `AGENTS.md` resolved (filled in or removed) per Codex convention
-- [ ] `README.md` install instructions still accurate after any file moves
+- [x] `docs/TESTING_GUIDELINES.md` removed, nothing references it
+- [x] Skill body has one canonical source (`skills/improve-this/SKILL.md`); `improve-this.md` and root `SKILL.md` are marked as synced copies with `scripts/check-sync.sh` to catch drift. Neither Claude Code nor Antigravity documents an include mechanism, so true single-sourcing wasn't possible there — `GEMINI.md`'s `@`-include remains Gemini-specific.
+- [x] `docs/specs/` removed
+- [x] `AGENTS.md` resolved — points to `CLAUDE.md` for dev rules (agents.md is a general repo-instructions convention, unrelated to `.codex-plugin/plugin.json`'s skill loading)
+- [x] `README.md` install instructions still accurate; added a "Maintaining this skill" section documenting the sync requirement
