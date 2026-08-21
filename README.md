@@ -97,6 +97,10 @@ Legend: ✅ Supported · ❌ Not supported
 
 `skills/improve-this/SKILL.md` is the source of truth for the skill body. Neither Claude Code nor Antigravity supports including one file's content inside another, so `improve-this.md` and the root `SKILL.md` are manually kept as synced copies (`GEMINI.md` avoids this by using Gemini CLI's `@`-include convention instead). After editing the skill body, run `scripts/check-sync.sh` to confirm all three copies still match.
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for release history.
+
 ## License
 
 MIT
