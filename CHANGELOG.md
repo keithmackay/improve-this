@@ -6,6 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
 ## [Unreleased]
 
+- Add Changelog section to README linking CHANGELOG.md
 - Add --help flag convention (help.md)
 - Add progressive-disclosure check and --help flag to improve-this.md
 - Add improve-this review and implementation plan for 2026-08-19
